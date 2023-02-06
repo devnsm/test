@@ -5,6 +5,7 @@ async function getData() {
   const response = await request.data;
 
   //the data
+  //other thing
   console.log(response);
 }
 
