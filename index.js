@@ -4,7 +4,7 @@ async function getData() {
   const request = await axios.get("https://jsonplaceholder.typicode.com/todos");
   const response = await request.data;
 
-  //data
+  //data from api
   console.log(response);
 }
 
